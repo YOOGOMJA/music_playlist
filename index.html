@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PLAYLIST - KYEONGSOO</title>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
-    <link rel='stylesheet' href='./styles.css'>
     <script type='text/javascript' src='./bower_components/jquery/dist/jquery.js'></script>
+    <script type='text/javascript' src='https://www.youtube.com/iframe_api'></script>
+
+
+    <link rel='stylesheet' href='./styles.css'>
     <script type='text/javascript' src='./index.js'></script>
 </head>
 <body>
     <div class='background'>
+        <!-- 배경화면 부 -->
         <div class='images honey'>
-
+                
         </div>
         <div class='cover'>
 
@@ -22,23 +26,26 @@
     <div class='content'>
         <div class='video-container'>
             <div class='video-area'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/s2Gw6r6HooA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div id='video' class='video'></div>
             </div>
         </div>
         <div class='info-container'>
+            <!-- 제목 -->
             <p class='title'>
                 Honey
             </p>
+            <!-- 가수 -->
             <p class='artist'>
                 Johnny Balik
             </p>
             <div class='desc-container'>
                 <div class='desc'>
+                    <!-- 발매 일자 -->
                     <p class='release-date'>
                         2018. 7. 13.
                     </p>
                     <div class='lyrics-container'>
-                        <!-- <p>lyrics</p> -->
+                        <!-- 가사 삽입 부  -->
                         <div class='lyrics slideup'>
 
                         </div>
@@ -49,67 +56,14 @@
                 </div>
             </div>
         </div>
+        <!-- 플레이리스트 목록 -->
         <div class='list-container'>
-            <div class='item'>
-                <span class='thumbnail honey'></span>
-                <p class='title'>honey</p>
-                <p class='artist'>Johnny Balik</p>
-                <a href='#honey'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail provider'></span>
-                <p class='title'>provider</p>
-                <p class='artist'>Frank Ocean</p>
-                <a href='#provider'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail honey'></span>
-                <p class='title'>honey</p>
-                <p class='artist'>Johnny Balik</p>
-                <a href='#honey'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail honey'></span>
-                <p class='title'>honey</p>
-                <p class='artist'>Johnny Balik</p>
-                <a href='#honey'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail provider'></span>
-                <p class='title'>provider</p>
-                <p class='artist'>Frank Ocean</p>
-                <a href='#provider'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail honey'></span>
-                <p class='title'>honey</p>
-                <p class='artist'>Johnny Balik</p>
-                <a href='#honey'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
-            <div class='item'>
-                <span class='thumbnail honey'></span>
-                <p class='title'>honey</p>
-                <p class='artist'>Johnny Balik</p>
-                <a href='#honey'>
-                    <i class='fas fa-play'></i>
-                </a>
-            </div>
+            
         </div>
     </div>
     <div class='footer'>
 
     </div>
+    <div class='template' style='display:none;'></div>
 </body>
 </html>

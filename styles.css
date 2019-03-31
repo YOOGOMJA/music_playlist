@@ -141,16 +141,53 @@ body{
 .content .list-container .item{
     color : #eee;
     height : 72px;
+    padding : 0 15px;
+    border-top : 1px solid #2e3131;
+    position : relative;
 }
 
-.content .list-container .item p,a{
-    display: table-cell;
+.content .list-container .item p{
     margin: 0;
-    vertical-align: middle;
-    height: 72px;
 }
 
-/*  ## FOOTER          */
+.content .list-container .item .title {
+    margin-top: 8px;
+    font-size : 1.5em;
+}
+
+.content .list-container .item .artist{
+    font-size : .9em;
+    color:#999;
+}
+
+.content .list-container .item a{
+    /* float:right; */
+    margin-top:26px;
+    text-decoration: none;
+    color : #96281b;
+    position:absolute;
+    right: 20px;
+    top:0;
+}
+
+.content .list-container .item .thumbnail{
+    width : 90px;
+    height : 51px;
+    /* display:block; */
+    background-position :center;
+    background-size : contain;
+    float:left;
+    margin-top:11px;
+    margin-right : 25px;
+}
+
+.content .list-container .item .thumbnail.honey{
+    background-image:url('./images/honey.jpg')
+}
+
+.content .list-container .item .thumbnail.provider{
+    background-image:url('./images/provider.jpg')
+}
 
 
 

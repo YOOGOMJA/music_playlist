@@ -338,7 +338,7 @@ var __global = (function($){
                 _fn.list.generate();
                 __global.fn.transition.changeState();
             });
-            
+
         } ,
         data : {
             currentVideo : ''
@@ -347,7 +347,12 @@ var __global = (function($){
 })(jQuery);
 
 function onYouTubeIframeAPIReady(){
-    var _videoId = __global.fn.tools.findEmbedId(location.hash);
+    var _videoId;
+    if(location.hash){
+        _videoId = __global.fn.tools.findEmbedId(location.hash);
+    }
+    else { _videoId = __global.fn.tools.findEmbedId('#honey') }
+    
 
     if($('iframe').length > 0){
         var _parent = $('iframe').parent();

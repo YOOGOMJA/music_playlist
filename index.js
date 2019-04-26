@@ -86,8 +86,8 @@ var __global = (function($){
         {
             hash : '#whyiiilovethemoon' , 
             class : 'whyiiilovethemoon' , 
-            embed : 'https://www.youtube-nocookie.com/embed/9zEl-FQLI4A' ,
-            embedId : '9zEl-FQLI4A',
+            embed : 'https://www.youtube-nocookie.com/embed/0Y6Uy_-hJRQ' ,
+            embedId : '0Y6Uy_-hJRQ',
             title : 'Why iii Love The Moon',
             artist : 'Phony ppl',
             releaseDate : '2015.12.21.',
@@ -159,16 +159,6 @@ var __global = (function($){
                 homepage : "https://fanlink.to/supportPV",
                 instagram  : "https://www.instagram.com/paul_gilmore/"
             }
-        },
-        {
-            hash : '#pinemagic' , 
-            class : 'pinemagic' , 
-            embed : 'https://www.youtube-nocookie.com/embed/FjMuHr4nwLQ' ,
-            embedId : 'FjMuHr4nwLQ',
-            title : "Pine Magic",
-            artist : 'Muscle',
-            releaseDate : '2019.2.14.',
-            lyrics : "no lyrics",
         },
         {
             hash : '#jieunssunset' , 

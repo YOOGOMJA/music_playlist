@@ -21,10 +21,10 @@ body{
     filter: blur(20px);
     -webkit-filter: blur(20px);
     position: absolute;
-    width: 102%;
-    height: 102%;
-    top: -1%;
-    left: -1%;
+    width: 106%;
+    height: 106%;
+    top: -3%;
+    left: -3%;
 }
 
 .background .cover{
